@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteMate - Find Travel Partners</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <i class="fas fa-route"></i>
+                RouteMate
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#search">Find Partners</a>
+                <a href="#about">About Us</a>
+                <a href="login.html" class="login-btn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Travel Partner</h1>
+            <p>Connect with like-minded travelers and explore the world together.</p>
+            <div class="cta-buttons">
+                <a href="#search" class="primary-btn">Start Exploring</a>
+                <a href="#about" class="secondary-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Why Choose RouteMate?</h2>
+            <p>Discover the benefits of using RouteMate for your travel connections.</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fas fa-users"></i>
+                <h3>Connect with Travelers</h3>
+                <p>Find companions who share your travel interests and goals.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Personalized Matches</h3>
+                <p>Get recommendations based on your travel preferences and location.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-plane"></i>
+                <h3>Plan Trips Together</h3>
+                <p>Collaborate with your partners to create the perfect travel itinerary.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="search" class="search">
+        <div class="section-header">
+            <h2>Find Your Travel Partner</h2>
+            <p>Search for travel companions based on your destination and preferences.</p>
+        </div>
+        <div class="search-container">
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" placeholder="Enter your destination">
+                </div>
+                <div class="form-group">
+                    <label for="travelDate">Travel Date:</label>
+                    <input type="date" id="travelDate">
+                </div>
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Us</h2>
+            <p>Learn more about our mission to connect travelers worldwide.</p>
+        </div>
+        <div class="about-content">
+            <p>At RouteMate, we believe travel is more enjoyable when shared with others. Our platform helps connect like-minded individuals to explore the world together, creating unforgettable memories and meaningful connections.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About RouteMate</h4>
+                <p>Connecting travelers worldwide for unforgettable adventures.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#search">Find Partners</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Safety Tips</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 RouteMate. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
